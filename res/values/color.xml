@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_bar">#251f26</color>
+    <color name="bg_main">#e7e7e7</color>
+    <color name="bg_icon">#453d4b</color>
+    
+    <color name="white">#ffffff</color>
+    <color name="btn_yellow">#fec30b</color>
+    <color name="gray">#c2c2c2</color>
+    <color name="black_light">#262626</color>
+    <color name="text_gray">#818181</color>
+    
+    
+    <color name="line_color">#c2c2c2</color>
+    
+    <color name="line_edit">#574f5e</color>
+</resources>
