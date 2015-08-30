@@ -1,4 +1,7 @@
-package com.example.pull;
+package com.example.pull.lib;
+
+import com.example.pull.R;
+import com.example.pull.R.layout;
 
 import android.content.Context;
 import android.util.AttributeSet;

@@ -1,4 +1,4 @@
-package com.example.pull;
+package com.example.pull.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,7 +6,13 @@ import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener;
 import com.androidquery.AQuery;
-import com.example.pull.LoadMoreListView.OnLoadMore;
+import com.example.pull.R;
+import com.example.pull.R.color;
+import com.example.pull.R.id;
+import com.example.pull.R.layout;
+import com.example.pull.adater.TestAdapter;
+import com.example.pull.lib.LoadMoreListView;
+import com.example.pull.lib.LoadMoreListView.OnLoadMore;
 
 public class MainActivity extends Activity implements OnLoadMore {
 	SwipeRefreshLayout swipeRefreshLayout;

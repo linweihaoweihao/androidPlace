@@ -1,4 +1,4 @@
-package com.example.pull;
+package com.example.pull.adater;
 
 import java.util.ArrayList;
 import com.alibaba.fastjson.JSON;
@@ -6,6 +6,10 @@ import com.alibaba.fastjson.TypeReference;
 import com.androidquery.AQuery;
 import com.androidquery.callback.AjaxCallback;
 import com.androidquery.callback.AjaxStatus;
+import com.example.pull.R;
+import com.example.pull.R.id;
+import com.example.pull.R.layout;
+import com.example.pull.lib.LoadMoreListView;
 import com.example.pull.model.People;
 
 import android.R.integer;
